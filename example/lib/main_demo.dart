@@ -267,10 +267,10 @@ class SlideAction extends StatelessWidget {
       backgroundColor: color,
       foregroundColor: Colors.white,
       onPressed: (_) {
-        print(icon);
+        print(Icon(icon));
       },
-      icon: icon,
-      label: 'hello',
+      icon: Icon(icon),
+      label: Text('hello'),
     );
   }
 }

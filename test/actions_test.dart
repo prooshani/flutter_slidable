@@ -38,7 +38,7 @@ void main() {
             children: [
               SlidableAction(
                 onPressed: (_) => logs.add('pressed'),
-                label: 'label',
+                label: Text('label'),
               )
             ],
           ),
@@ -61,7 +61,7 @@ void main() {
             children: [
               SlidableAction(
                 onPressed: (_) => logs.add('pressed'),
-                label: 'my_label',
+                label: Text('my_label'),
               )
             ],
           ),
@@ -80,7 +80,7 @@ void main() {
             children: [
               SlidableAction(
                 onPressed: (_) => logs.add('pressed'),
-                icon: Icons.ac_unit,
+                icon: Icon(Icons.ac_unit),
               )
             ],
           ),
@@ -99,8 +99,8 @@ void main() {
             children: [
               SlidableAction(
                 onPressed: (_) => logs.add('pressed'),
-                icon: Icons.ac_unit,
-                label: 'my_label',
+                icon: Icon(Icons.ac_unit),
+                label: Text('my_label'),
               )
             ],
           ),
